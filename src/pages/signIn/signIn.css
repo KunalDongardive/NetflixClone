@@ -1,0 +1,170 @@
+.signIn {
+  height: fit-content;
+  /* position: relative; */
+  color: white;
+}
+
+.signIn .logo img {
+  position: absolute;
+  left: 40px;
+  height: 50px;
+  width: 160px;
+  top: 30px;
+}
+
+.signIn .bgImg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(30%);
+}
+
+.signIn .signInCard {
+  position: absolute;
+  height: 550px;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  border-radius: 8px;
+  top: 25px;
+  color: white;
+  transform: translate(170%);
+}
+
+.signIn .signInCard .cardItem input {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0px;
+  background-color: rgb(74, 74, 74);
+  padding: 5px 10px;
+  color: rgb(55, 55, 55);
+  font-weight: 500;
+  color: white;
+  outline: none;
+}
+
+.signIn .signInCard .cardItem input::placeholder {
+  font-size: 15px;
+}
+
+.signIn .signInCard .remember .checkbox input[type="checkbox"] {
+  accent-color: grey;
+  cursor: pointer;
+  height: 20px;
+  width: 15px;
+}
+
+.signIn .signInCard .remember .checkbox p {
+  margin-left: 5px;
+}
+
+.signIn .signInCard .cardItem button {
+  height: 50px;
+  width: 100%;
+  margin-bottom: -10px;
+  margin-top: 30px;
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.signIn .signInCard .remember {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-top: 20px;
+  color: grey;
+}
+
+.signIn .signInCard .remember .checkbox {
+  display: flex;
+}
+
+.signIn .signInCard .newtoNetflix {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  color: grey;
+  font-size: 12px;
+}
+
+.signIn .signInCard .newtoNetflix span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+}
+
+.signIn .signInCard .newtoNetflix span {
+  margin-left: 5px;
+}
+
+.signIn .signInCard .captchaNote {
+  color: grey;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.signIn .signInCard .captchaNote span {
+  margin-left: 2px;
+}
+
+.signIn .footer {
+  position: absolute;
+  bottom: -21%;
+  height: 260px;
+  width: 100%;
+  color: rgb(168, 163, 163);
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.signIn .footer .footerItems {
+  padding: 30px 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  line-height: 3;
+}
+
+.signIn .footer .footerItems .question {
+  margin-left: 70px;
+}
+
+.signIn .footer .footerItems .listofLinks {
+  width: 100%;
+  font-size: 13px;
+  display: flex;
+}
+
+.signIn .footer .footerItems .listofLinks .links {
+  display: flex;
+  flex-direction: column;
+}
+
+.signIn .footer .footerItems ul > li {
+  cursor: pointer;
+  line-height: 2;
+  padding: 0px 70px;
+}
+
+.signIn .footer .footerItems .langButton {
+  width: 120px;
+  display: flex;
+  margin-left: 70px;
+  padding: 10px 10px;
+  border: 1px solid rgb(158, 142, 142);
+  font-size: 13px;
+  align-items: center;
+  color: rgb(154, 146, 146);
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}

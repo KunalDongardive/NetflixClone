@@ -1,0 +1,105 @@
+.featured {
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 30%,
+    rgba(0, 0, 0, 0.644782913165266) 59%,
+    rgba(0, 212, 255, 0) 100%
+  );
+  position: relative;
+}
+
+.slider img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.featured .slider {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.featured .metaInfo {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  bottom: 0;
+  justify-content: last baseline;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 30%,
+    rgba(0, 0, 0, 0.644782913165266) 59%,
+    rgba(0, 212, 255, 0) 100%
+  );
+}
+
+.featured .title {
+  width: 40%;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 80px;
+}
+
+.featured .genre {
+  display: flex;
+  align-items: flex-start;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.featured .genre .quality {
+  background-color: red;
+  color: black;
+  width: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.featured .summary {
+  width: 40%;
+  margin-left: 80px;
+}
+
+.featured .buttons {
+  display: flex;
+  margin-left: 80px;
+}
+
+.featured .buttons button {
+  border-radius: 20px;
+  height: 40px;
+  width: 120px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.featured .metaInfo .genre .rating {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.featured .metaInfo > * {
+  margin-bottom: 20px;
+  margin-left: 80px;
+}
+
+.featured .buttons .addtoList {
+  margin-left: 20px;
+}

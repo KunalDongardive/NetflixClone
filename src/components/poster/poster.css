@@ -1,0 +1,65 @@
+.posterTemplate {
+  height: auto;
+  width: 100%;
+}
+
+.posterTemplate .posterSlot {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.posterTemplate .posterSlot .poster {
+  height: 350px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 35px;
+  transition: all 0.3s ease-in-out;
+}
+
+.posterTemplate .posterSlot .poster:hover {
+  transform: scale(1.1);
+}
+
+.posterTemplate .posterSlot .poster .posterImg img {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.posterTemplate .posterSlot .poster .hd {
+  position: absolute;
+  background-color: black;
+  padding: 0px 3px;
+  left: 82%;
+  top: 2%;
+  border-radius: 5px;
+}
+
+.posterTemplate .posterSlot .poster .title {
+  text-overflow: ellipsis;
+  margin: 0px 2px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.posterTemplate .posterSlot .poster .metaInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.posterTemplate .posterSlot .poster .metaInfo .type {
+  border: 1px solid white;
+  padding: 0px 1px;
+}
+
+.posterTemplate .posterSlot .poster .metaInfo .dot {
+  font-weight: 1000;
+}

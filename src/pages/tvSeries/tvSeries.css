@@ -1,0 +1,134 @@
+.tvSeries {
+  height: auto;
+  width: 100%;
+  color: white;
+  margin-top: 50px;
+}
+
+.tvSeries .heading {
+  color: white;
+  padding: 50px;
+}
+
+.tvSeries .heading .title {
+  font-size: 25px;
+  margin-left: 10px;
+  text-decoration: underline white solid;
+}
+
+.tvSeries .heading .buttons {
+  display: flex;
+}
+
+.tvSeries .heading .buttons button:hover {
+  transform: scale(1.2);
+  background-color: white;
+}
+
+.tvSeries .heading .buttons > * {
+  padding: 5px 10px;
+  background-color: grey;
+}
+
+.tvSeries .heading .buttons button {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+/* TV Series styling end point */
+/* Poster Slot for TV Series Starting point */
+
+.tvSeries .posterSlot {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 0px 50px;
+}
+
+.tvSeries .posterSlot .poster {
+  height: 350px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 30px;
+  transition: all 0.5s ease-in-out;
+}
+
+.tvSeries .posterSlot .poster:hover {
+  transform: scale(1.1);
+}
+
+.tvSeries .posterSlot .poster .posterImg img {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.tvSeries .posterSlot .poster .hd {
+  position: absolute;
+  background-color: black;
+  padding: 0px 3px;
+  left: 82%;
+  top: 2%;
+  border-radius: 5px;
+}
+
+.tvSeries .posterSlot .poster .title {
+  text-overflow: ellipsis;
+  margin: 0px 2px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.tvSeries .posterSlot .poster .metaInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.tvSeries .posterSlot .poster .metaInfo .type {
+  border: 1px solid white;
+  padding: 0px 1px;
+}
+
+.tvSeries .posterSlot .poster .metaInfo .dot {
+  font-weight: 1000;
+}
+
+/* Poster Slot for TV Series End point */
+/* pages buttons style starting point */
+
+.tvSeries .pagesButtons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tvSeries .pagesButtons > * {
+  padding: 6px 10px;
+  background-color: red;
+  margin: 7px;
+}
+
+.tvSeries .pagesButtons button {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.tvSeries .pagesButtons button:hover {
+  transform: scale(1.2);
+}

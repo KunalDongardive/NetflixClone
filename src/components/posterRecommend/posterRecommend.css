@@ -1,0 +1,66 @@
+.posterRecomend {
+  height: auto;
+  width: 100%;
+}
+
+.posterRecomend .posterSlot {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.posterRecomend .posterSlot .poster {
+  height: 350px;
+  width: 200px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 35px;
+  transition: all 0.3s ease-in-out;
+}
+
+.posterRecomend .posterSlot .poster:hover {
+  transform: scale(1.1);
+}
+
+.posterRecomend .posterSlot .poster .posterImg img {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.posterRecomend .posterSlot .poster .hd {
+  position: absolute;
+  background-color: black;
+  padding: 0px 3px;
+  left: 82%;
+  top: 2%;
+  border-radius: 5px;
+}
+
+.posterRecomend .posterSlot .poster .title {
+  text-overflow: ellipsis;
+  margin: 0px 2px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.posterRecomend .posterSlot .poster .metaInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.posterRecomend .posterSlot .poster .metaInfo .type {
+  border: 1px solid white;
+  padding: 0px 1px;
+}
+
+.posterRecomend .posterSlot .poster .metaInfo .dot {
+  font-weight: 1000;
+}
